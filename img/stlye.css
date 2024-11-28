@@ -1,0 +1,86 @@
+html {
+    background-image: url(nacho\ background.jpg);
+}
+
+body {
+    background-color: rgba(47, 129, 36, 0.8);
+    width: 1000px;
+    margin: 25px auto;
+    text-align: center;
+    padding: 50px 0;
+    border-radius: 25px;
+}
+
+h1 {
+    font-family: "Pacifico", cursives;
+    font-weight: 400;
+    font-style: normal;
+    background-color: rgb(104, 175, 104); 
+    width: 300px;
+    margin: auto;
+    border-radius: 15px;
+}
+
+table {
+    border-spacing: 15px;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+    margin: auto;
+    border-radius: 10px;
+}
+
+#D {
+    background-color: rgb(104, 175, 104);
+    width: 300px;
+    border-radius: 5px;
+}
+
+#F {
+    background-color: rgb(104, 175, 104);
+    width: 300px;
+    border-radius: 5px;
+}
+
+.Money {
+    background-color: green;
+}
+
+#Submit {  
+    border-radius: 10px;
+    background-color: greenyellow;
+}
+
+#Submit:hover {
+    background-color: rgb(40, 82, 40);
+    transition: background 1s, color 1s;
+}
+
+input {
+    background-color: greenyellow;
+}
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+td {
+    font-family: "Playwrite DE Grund", cursive;
+}
+
+.separator {
+    height: 20px;
+    background: rgb(17, 107, 55);
+    border-radius: 0;
+}
+
+span {
+    font-family: "Bokor", system-ui;
+    font-weight: 750;
+}
+
+td {
+    padding: 3px 9px;
+}

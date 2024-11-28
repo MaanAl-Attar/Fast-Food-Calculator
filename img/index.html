@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <title>Fast Food Menu</title>
+    <link rel="stylesheet" href="stlye.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <h1 id="order">Nacho House's Menu</h1>
+    <hr color="black">
+
+    
+    <table>
+
+        <tr>
+           <td id="F">Food</td>
+            <td id="D">Drinks</td>
+        </tr>
+        
+        <tr> 
+            <td><img src="Nachos-removebg-preview.png" alt="Nacho"></td>
+            <td><img src="cola-removebg-preview.png" alt="Coca Cola" style="width: 250px; height: 200px";></td>
+        </tr>
+
+        <tr class="Money">
+            <td>Nacho $7.99 <input id="in-1" placeholder="Amount" type="number"></td>
+            <td>Coca Cola $1.99 <input id="in-2" placeholder="Amount" type="number"></td>
+        </tr>
+
+        <tr>
+            <td class="separator" colspan="2"></td>
+        </tr>
+
+
+        <tr>
+            <td><img src="Burger-removebg-preview.png" alt="Burger"></td>
+            <td><img src="sprite-removebg-preview.png" alt="Sprite" style="width: 175px; height: 180px";></td>
+        <tr>
+
+        <tr class="Money">
+            <td>Burger $4.99 <input id="in-3" placeholder="Amount" type="number"></td>
+            <td>Sprite $1.99 <input id="in-4" placeholder="Amount" type="number"></td>
+        </tr>
+
+        <tr>
+            <td class="separator" colspan="2"></td>
+        </tr>
+        
+        <tr>
+            <td><img src="Fried_Chicken-removebg-preview.png" alt="Chicken"></td>
+            <td><img src="doctor_pepper-removebg-preview.png" alt="Doctor Pepper" style="width: 200px; height: 200px";></td>
+        </tr>
+
+        <tr class="Money">
+            <td>Fried Chicken (single chicken piece) $1.25 <input id="in-5" placeholder="Amount" type="number"></td>
+            <td>Doctor Pepper $1.99 <input id="in-6" placeholder="Amount" type="number"></td>
+        </tr>
+
+        <tr>
+            <td class="separator" colspan="2"></td>
+        </tr>
+
+        <tr>
+            <td><img src="Fries.jpg" alt="Fries"></td> 
+            <td><img src="mouten_dew-removebg-preview.png" alt="Mouten Dew" style="width: 200px; height: 200px";></td>
+        </tr>
+
+        <tr class="Money">
+            <td>Fries $2.90 <input id="in-7" placeholder="Amount" type="number"></td>
+            <td>Mouten Dew $1.99 <input id="in-8" placeholder="Amount" type="number"></td>
+        </tr>
+
+        <tr>
+            <td class="separator" colspan="2"></td>
+        </tr>
+
+        <tr>
+            <td><img src="poutine_fries-removebg-preview.png" alt="Poutine"></td>
+            <td><img src="7_up-removebg-preview.png" alt="7 UP" style="width: 175px; height: 200px;"></td>
+        </tr>
+
+        <tr class="Money">
+            <td>Poutine $6.89 <input id="in-9" placeholder="Amount" type="number"></td>
+            <td>7up $1.99 <input id="in-10" placeholder="Amount" type="number"></td>
+        </tr>
+
+        <tr>
+            <td class="separator" colspan="2"></td>
+        </tr>
+    </table> 
+
+    <button id="Submit"><h3>Submit Order</h3></button> 
+    <hr color="black" width="400px">
+    <h3 id="p-r">Your order</h3>
+    
+    <table id="t-2">
+    <tr class="ta-ble">
+    <td><h4>Nacho: <span id="sp-1">------</span></h4></td>
+    <td><h4>Burger: <span id="sp-2">------</span></h4></td>
+    <td><h4>Peice Of Chicken: <span id="sp-3">------</span></h4></td>
+    <td><h4>Fries: <span id="sp-4">------</span></h4></td>
+    <td><h4>Poutine: <span id="sp-5">------</span></h4></td>
+    </tr>
+
+    <tr class="ta-ble">
+    <td><h4>Coca Cola: <span id="sp-6">------</span></h4></td>
+    <td><h4>Sprite: <span id="sp-7">------</span></h4></td>
+    <td><h4>Dr Pepper: <span id="sp-8">------</span></h4></td>
+    <td><h4>Mouten Dew: <span id="sp-9">------</span></h4></td>
+    <td><h4>7up: <span id="sp-10">------</span></h4></td>
+    </tr>
+    
+
+    <tr>
+    <td colspan="5"><h3>You Owe (Without tax):<p id="output"></p><h3></h3></td>
+    </tr>
+    
+    <tr>
+    <td colspan="5"><h3>You Owe (Including tax): <p id="output2"></p></h3></td>
+    </tr>
+</table>
+</body>
+</html>
